@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* font-family: 'Chelsea Market', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+* {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    padding: 2%;
+    margin-top: 2%;
+}
+.header a {
+    padding: 1%;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.orange {
+    margin: 0 12% 0 20%;
+    border-radius: 10px;
+    background: #FF764E;
+    transition: .2s;
+}
+.orange:hover{
+    background: #ddb9a3;
+    color:#FF764E;
+}
+.blue {
+    margin: auto;
+    border-radius: 10px;
+    background: #5ED3EB;
+    transition: .2s;
+}
+.blue:hover {
+    background:#ddb9a3;
+    color: #5ED3EB;
+}
+.yellow {
+    margin: 0 20% 0 12%;
+    border-radius: 10px;
+    background: #FFCD69;
+    transition: .2s;
+}
+.yellow:hover {
+    background: #ddb9a3;
+    color: #FFCD69;
+}
+
+.header-logo {
+    border-radius: 50%;
+    width: 19%;
+    display: inline-block;
+    margin: 2% 50% 0 0;
+}
+
+h1 {
+    display: block;
+    width: 50%;
+    margin: -16% 80% 15% 40%;
+    font-size: 400%;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.first-section {
+    width: 50%;
+    margin: -13% 0 12% 40%;
+    font-size: 190%;
+}
+
+.second-section {
+    width: 90%;
+    margin: -7% auto 1%;
+    background: #DDB9A3;
+    padding: 2%;
+    font-size: 200%;
+    color: white;
+}
+
+.fire {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 150%;
+}
+.fire-image {
+    width: 40%;
+    margin: 3% auto;
+}
+
+.lodging {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 150%;
+}
+.lodging-image {
+    width: 40%;
+    margin: 10% auto 3%;
+}
+
+.footer-image {
+    background:url("./assets/footer_img.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5% auto 2%;
+}
+
+.footer {
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.footer a {
+    padding: 1%;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.orange-f {
+    margin: 0 12% 0 20%;
+    border-radius: 10px;
+    background: #FF764E;
+    transition: .2s;
+}
+.orange-f:hover{
+    background: #ddb9a3;
+    color:#FF764E;
+}
+.blue-f {
+    margin: auto;
+    border-radius: 10px;
+    background: #5ED3EB;
+    transition: .2s;
+}
+.blue-f:hover {
+    background:#ddb9a3;
+    color: #5ED3EB;
+}
+.yellow-f {
+    margin: 0 20% 0 12%;
+    border-radius: 10px;
+    background: #FFCD69;
+    transition: .2s;
+}
+.yellow-f:hover {
+    background: #ddb9a3;
+    color: #FFCD69;
+}
